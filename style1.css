@@ -199,3 +199,7 @@ padding: 2%;
     transform: rotateY(360deg) 
   }
 }
+
+a {
+  text-decoration:none;
+}
