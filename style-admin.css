@@ -1,0 +1,16 @@
+    body{color: #00008B;}
+table, tr, td{background-color: #2E8B57;
+margin: auto;
+padding: 10px;
+width: 80%;
+border: 5px solid #808000;}
+button {
+	background-color: #008080;
+	border-radius: 20px;
+}
+.click {background-color: #008080;
+	border-radius: 20px;
+margin: 10px;}
+.element{
+	background-color: #3CB371;
+width: 200px;}

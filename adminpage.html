@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="style-admin.css">
+</head>
+<body>
+	 <table>
+        <tr>
+            <td>
+                <form autocomplete="off" onsubmit="accounts()">
+                    <div>
+                        <label for="Email">Email</label>
+                        <input type="text" name="Email" id="Email" class="element">
+                    </div>
+                    <div>
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" class="element">
+                    </div>
+                    <div>
+                        <label for="Password">Password</label>
+                        <input type="text" name="Password" id="Password" class="element">
+                    </div>
+                    <div>
+                        <label for="Index">Index</label>
+                        <input type="number" name="Index" id="Index" class="element">
+                    </div>
+
+                    <div class="form_action--button">
+                        <input type="submit" value="Submit" class="click">
+                        <input type="reset" value="Reset" class="click">
+                    </div>
+                </form>
+
+                <td>
+                    <table class="list" id="set">
+                        <thead>
+                            <tr>
+                                <th>Email</th>
+                                <th>Name</th>
+                                <th>Password</th>
+                                <th>Index</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                </td>
+            </td>
+        </tr>
+    </table>
+    <script src="admin.js"></script>
+</body>
+</html>
